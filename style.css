@@ -1,0 +1,171 @@
+/* General page style */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #111827;
+  color: white;
+}
+
+/* Tools section */
+.tools {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+/* Tool cards */
+.tool-card {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;  /* removes blue underline */
+  color: #111;             /* dark text */
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+/* Hover effect */
+.tool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #666;
+}
+/* Pomodoro Timer styles */
+.pomodoro-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.pomodoro-container input {
+  width: 80px;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.pomodoro-buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #111827;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.pomodoro-buttons button:hover {
+  transform: translateY(-3px);
+}
+
+.back-home {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #111827;
+  font-weight: bold;
+}
+.back-home:hover {
+  text-decoration: underline;
+}
+/* Word & Character Counter styles */
+.counter-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.counter-container textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.counts p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+/* Percentage Calculator styles */
+.percentage-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.percentage-container input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.percentage-container button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #111827;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.percentage-container button:hover {
+  transform: translateY(-3px);
+}
+
+.percentage-container h2 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.back-home {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #111827;
+  font-weight: bold;
+}
+.back-home:hover {
+  text-decoration: underline;
+}
